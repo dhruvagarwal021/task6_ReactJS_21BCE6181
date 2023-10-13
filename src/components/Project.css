@@ -1,0 +1,20 @@
+@keyframes slideIn
+{
+  from
+  {
+    transform: translateX(-100%);
+  }
+  to
+  {
+    transform: translateX(0);
+  }
+}
+.mydisplay1
+{
+  animation: slideIn 1.5s;
+  cursor: pointer;
+}
+.mydisplay1:hover
+{
+  opacity: 0.7;
+}

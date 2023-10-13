@@ -1,0 +1,28 @@
+@keyframes Dance
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    50%
+    {
+        transform: translateX(-20px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+.mydisplay3
+{
+    animation: Dance 2s infinite;
+}
+.mycard
+{
+    background-color:rgb(99, 129, 171);
+    cursor: pointer;
+}
+.mycard:hover
+{
+    background-color: black;
+}
