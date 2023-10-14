@@ -9,11 +9,15 @@ export function Contact() {
                 <p className='text-light'>Mobile No:-(India) +918107191657</p>
                 <p className='text-light'>Email Id:-(India) dhruvagarwal02@icloud.com</p>
                 <a href="https://www.instagram.com/dhruv.8107">
-                    <i class="text-danger fa-brands fa-instagram fa-shake icon"></i>
+                    <i class="text-danger fa-brands fa-instagram fa-shake icon" style={{fontSize:"40px"}}></i>
                 </a>
                 <a href="https://www.linkedin.com/in/dhruv-agarwal-209714232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className='ms-2'>
-                    <i class="text-primary fa-brands fa-linkedin fa-shake icon"></i>
+                    <i class="text-primary fa-brands fa-linkedin fa-shake icon" style={{fontSize:"40px"}}></i>
                 </a>
+                <br></br>
+        <br></br>
+        <br></br>
+        <p className="text-light">Copyright <i class="fa-solid fa-copyright text-light mt-5"></i> 2023 - All rights reserved / Dhruv Agarwal</p>
             </form>
         </div>
     )
