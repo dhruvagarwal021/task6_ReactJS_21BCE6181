@@ -3,7 +3,7 @@ import './Home.css';
 export function Home() {
   return (
     <div>
-      <form className="form" style={{ backgroundImage: `url(${bodyBackground})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",height:"100vh"}}>
+      <form className="form" style={{ backgroundImage: `url(${bodyBackground})`,backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
         <div>
           <p className="text-center text-light display-4 mydisplay" style={{position:"relative",top:"15px"}}>Welcome to My Portfolio !</p>
         </div>
@@ -26,7 +26,7 @@ export function Home() {
             real-world challenges.
           </p>
         </div>
-        <div className="text-center" style={{position:"relative",top:"45px"}}>
+        <div className="text-center" style={{position:"relative",top:"25px"}}>
           <h1 className="text-light">About</h1>
           <p className="text-light">
             Hello People, Welcome to My enthralling journey that conclusively
@@ -52,6 +52,10 @@ export function Home() {
             in enhancing my coding skills.
           </p>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <p className="text-light">Copyright <i class="fa-solid fa-copyright text-light mt-5"></i> 2023 - All rights reserved / Dhruv Agarwal</p>
       </form>
     </div>
   );
