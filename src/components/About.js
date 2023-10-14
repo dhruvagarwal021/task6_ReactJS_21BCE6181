@@ -3,7 +3,7 @@ import './About.css';
 export function About() {
     return (
         <div>
-            <form className="form" style={{ backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "100vh" }}>
+            <form className="form" style={{ backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                 <div>
                     <p className="display-5 text-light text-end mydisplay3">About Me !</p>
                     <p className="text-light text-end" style={{ fontSize: "13px" }}>
@@ -63,6 +63,15 @@ export function About() {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <p className="display-5 text-light text-end mydisplay3 mt-3">Links</p>
+                    <a className="nav-link text-end text-info" href="https://drive.google.com/file/d/1g_V5plXbNksdCgXcj-3o63zLMl_2TOtc/view?usp=drive_link">My Resume</a>
+                    <a className="nav-link text-end text-info" href="https://drive.google.com/file/d/16YBUL9UMHB-P4BHTzXCffoVi_D24MtCY/view?usp=sharing">My College Grade History</a>
+                </div>
+                <br></br>
+        <br></br>
+        <br></br>
+        <p className="text-light">Copyright <i class="fa-solid fa-copyright text-light mt-5"></i> 2023 - All rights reserved / Dhruv Agarwal</p>
             </form>
         </div>
     )
